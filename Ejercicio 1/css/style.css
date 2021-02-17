@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    background: url("../img/background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgb(14, 14, 49);
+}
+#texto, #header, #footerText{
+    color: white;
+    text-align: center;
+}
+#header{
+    margin-top: 40%;
+}
+#panelCentral{
+    border-radius: 4px;
+    background-color: white;
+    padding-top: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#camposForm{
+    background-color: whitesmoke;
+    padding: 15px;
+}
+#textCentral{
+    color: rgb(179, 178, 178);
+    padding-left: 25px;
+    font-weight: 500;
+}
+#footer{
+    text-align: center;
+}
+#footerButtons{
+    margin-top: 10%;
+}
+.rssButton{
+    padding: 10px;
+    border: lightgrey solid 2px;
+    background-color: rgb(26, 26, 26);
+    color: silver;
+    margin: 1px;
+    border-radius: 6px;
+    vertical-align: middle;
+}
+.btn-primary {
+    color: rgb(46, 46, 46) !important;
+    background-color: #42f0d3 !important;
+    border-color: rgb(46, 46, 46) !important;
+    margin-top: 10px;
+    font-weight: 500 !important;
+}
